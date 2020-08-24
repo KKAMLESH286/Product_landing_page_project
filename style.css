@@ -1,0 +1,47 @@
+:root {
+    box-sizing: border-box;
+
+}
+
+
+header {
+    background-color: aqua;
+    padding: 1em;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+    max-width: 1180px;
+}
+
+
+
+.nav_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+
+}
+
+
+.nav-item {
+    margin-right: 1em;
+    
+    
+}
+
+.nav-item--push-right {
+    margin-left: auto;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    margin-top: auto;
+    text-transform: uppercase;
+    
+
+}

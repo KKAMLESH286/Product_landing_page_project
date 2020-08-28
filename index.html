@@ -11,7 +11,7 @@
      <nav id="nav-bar" class="container">
     
      <ul class="nav_list">
-         <li><img id="header-img" src="foxdance.png" alt="foxdance"></li>
+         <li><a href="#"><img id="header-img" src="foxdance.png" alt="foxdance"></a></li>
          <li class="nav-item nav-item--push-right"><a href="#main" class="nav-link">Features</a></li>
          <li class="nav-item "><a href="#video" class="nav-link">How it works</a></li>
          <li class="nav-item "><a href="#courses" class="nav-link">Pricing</a></li>
@@ -19,111 +19,127 @@
 
      </nav>
 </header>
-<section class="container">
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <div class="cta-section">
-            <h1>Contemporary dance</h1>
-            <p>"Contemporary dance does refuse the classical ballet's leg technique in favor of modern dance's stress on the torso"</p>
+<section>
+    <div class="col_one">
+        <form id="form" class="container" action="https://www.freecodecamp.com/email-submit">
+            <div class="cta-section">
+                <h1>Contemporary dance</h1>
+                <p>"Contemporary dance does refuse the classical ballet's leg technique in favor of modern dance's stress on the torso"</p>
+                <div>
+                    <input type="email" id="email" name="email" placeholder="Enter your Email" pattern=".+@+.+">
+                </div>
+            
             <div>
-                <input type="email" id="email" name="email" placeholder="Enter your Email" pattern=".+@+.+">
+                <input id="submit" type="submit" value="Subscribe">
             </div>
-        
-        <div>
-            <input id="submit" type="submit" value="Subscribe">
         </div>
+        </form>
     </div>
-    </form>
-    <div id="main">
-        <div class="row">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="88" height="88" viewBox="0 0 24 24" stroke-width="2" stroke="#2196F3" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z"/>
-                <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
-              </svg>
-            <div class=column>
-                <h2>Step by step approach</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore delectus quaerat temporibus quisquam nemo eius quas</p>
-            </div>
-        </div>
-        
-        <div class="row">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-atom" width="88" height="88" viewBox="0 0 24 24" stroke-width="2" stroke="#2196F3" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z"/>
-                <line x1="12" y1="12" x2="12" y2="12.01" />
-                <path d="M12 2a4 10 0 0 0 -4 10a4 10 0 0 0 4 10a4 10 0 0 0 4 -10a4 10 0 0 0 -4 -10" transform="rotate(45 12 12)" />
-                <path d="M12 2a4 10 0 0 0 -4 10a4 10 0 0 0 4 10a4 10 0 0 0 4 -10a4 10 0 0 0 -4 -10" transform="rotate(-45 12 12)" />
-              </svg>
-            <div class=column>
-                <h2>Quality classes</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore delectus quaerat temporibus quisquam nemo eius quas</p>
-            </div>
-        </div>
-        
-        <div class="row">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-award" width="88" height="88" viewBox="0 0 24 24" stroke-width="2" stroke="#2196F3" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z"/>
-                <circle cx="12" cy="9" r="6" />
-                <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />
-                <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" />
-              </svg>
-            <div class=column>
-                <h2>Top Choreographer</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore delectus quaerat temporibus quisquam nemo eius quas</p>
+    <div class="col_two">
+        <div class="container">
+            <div id="main">
+                <div class="row">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="88" height="88" viewBox="0 0 24 24" stroke-width="2" stroke="#2196F3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"/>
+                        <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
+                      </svg>
+                    <div class=column>
+                        <h2>Step by step approach</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore delectus quaerat temporibus quisquam nemo eius quas</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-atom" width="88" height="88" viewBox="0 0 24 24" stroke-width="2" stroke="#2196F3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"/>
+                        <line x1="12" y1="12" x2="12" y2="12.01" />
+                        <path d="M12 2a4 10 0 0 0 -4 10a4 10 0 0 0 4 10a4 10 0 0 0 4 -10a4 10 0 0 0 -4 -10" transform="rotate(45 12 12)" />
+                        <path d="M12 2a4 10 0 0 0 -4 10a4 10 0 0 0 4 10a4 10 0 0 0 4 -10a4 10 0 0 0 -4 -10" transform="rotate(-45 12 12)" />
+                      </svg>
+                    <div class=column>
+                        <h2>Quality classes</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore delectus quaerat temporibus quisquam nemo eius quas</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-award" width="88" height="88" viewBox="0 0 24 24" stroke-width="2" stroke="#2196F3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"/>
+                        <circle cx="12" cy="9" r="6" />
+                        <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)" />
+                        <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(30 12 9)" />
+                      </svg>
+                    <div class=column>
+                        <h2>Top Choreographer</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore delectus quaerat temporibus quisquam nemo eius quas</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
    
-        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Qwi-XgaFwYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="col_three">
+        <div class="container">
+            <div class="video">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Qwi-XgaFwYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
     
-    <div id="courses">
-        <div class="course">
-            <h2>Free</h2>
-            <h1>$600
-            </h1>
-            
-                <ul>
-                	<li>Lorem ipsum.
-                	</li>
-                	<li>Lorem ipsum.
-                	</li>
-                	<li>Lorem ipsum dolor.
-                	</li>
-                	<li>Lorem ipsum.
-                	</li>
-                </ul>
-            
-            <input type="button" value="SELECT">
-        </div>
-        <div class="course">
-            <h2>Basic</h2>
-            <h1>$900
-            </h1>
-            <ul>
-                <li>Lorem ipsum.
-                </li>
-                <li>Lorem ipsum.
-                </li>
-                <li>Lorem ipsum dolor.
-                </li>
-                <li>Lorem ipsum.
-                </li>
-            </ul>
-            <input type="button" value="SELECT">
-        </div>
-        <div class="course">
-            <h2>Advanced</h2>
-            <h1>$1200
-            </h1>
-            <ul>
-                <li>Lorem ipsum.
-                </li>
-                <li>Lorem ipsum.
-                </li>
-                <li>Lorem ipsum dolor.
-                </li>
-                <li>Lorem ipsum.
-                </li>
-            </ul>
-            <input type="button" value="SELECT">
+    <div class="col_four">
+        <div class="container">
+            <div id="courses">
+                <div class="course">
+                    <h2>Free</h2>
+                    <h1>$600
+                    </h1>
+                    
+                        <ul>
+                        	<li>Lorem ipsum.
+                        	</li>
+                        	<li>Lorem ipsum.
+                        	</li>
+                        	<li>Lorem ipsum dolor.
+                        	</li>
+                        	<li>Lorem ipsum.
+                        	</li>
+                        </ul>
+                    
+                    <input type="button" value="SELECT">
+                </div>
+                <div class="course">
+                    <h2>Basic</h2>
+                    <h1>$900
+                    </h1>
+                    <ul>
+                        <li>Lorem ipsum.
+                        </li>
+                        <li>Lorem ipsum.
+                        </li>
+                        <li>Lorem ipsum dolor.
+                        </li>
+                        <li>Lorem ipsum.
+                        </li>
+                    </ul>
+                    <input type="button" value="SELECT">
+                </div>
+                <div class="course">
+                    <h2>Advanced</h2>
+                    <h1>$1200
+                    </h1>
+                    <ul>
+                        <li>Lorem ipsum.
+                        </li>
+                        <li>Lorem ipsum.
+                        </li>
+                        <li>Lorem ipsum dolor.
+                        </li>
+                        <li>Lorem ipsum.
+                        </li>
+                    </ul>
+                    <input type="button" value="SELECT">
+                </div>
+            </div>
         </div>
     </div>
 </section>

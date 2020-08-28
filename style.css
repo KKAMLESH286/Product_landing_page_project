@@ -1,8 +1,16 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
 :root {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    background-color: #e79a10;
-    color:#263a38;
+    font-family: proxima-nova-soft, "Proxima Nova Soft", Helvetica, Arial, sans-serif;
+    margin:0px;
+    
+}
+
+body {
+    margin: 0px;
 }
 
 h1{
@@ -20,16 +28,22 @@ div>div>h2 {
 header {
     position: fixed;
     top: 0px;
-    margin: 0 auto;
-    width: 70%;
-    max-width: 1180px;
-    background-color: #e79a10;
+    right: 0px;
+    left: 0px;
+    padding: 15px;
+    width: 100%;
+    background-color: #032535;
+    z-index: 999;
+    text-align: center;
+    /* border: 2px solid red; */
+
 }
 
 .container {
     margin: 0 auto;
     width: 70%;
-    max-width: 1180px;
+    
+    
 }
 
 
@@ -61,7 +75,7 @@ header {
 
 #header-img {
     width: 100%;
-    max-width: 140px;
+    max-width: 200px;
     
 }
 
@@ -86,23 +100,33 @@ div>p {
 }
 
 
-section.container {
-    margin: auto;
-    padding: 0px;
-    height: 50vh;
+
+
+.col_one {
+    background-color: #ffb515;
+}
+.col_two {
+    background-color: #ff9a00;
+}
+.col_three {
+    background-color: #ff5700;
+}
+.col_four {
+    background-color: #da4302;
 }
 
 
 form {
-    margin-top: 60px;
+    margin:60px 0 0 0;
+    padding: 120px 0;
 }
 
 input {
     height: 30px;
     margin-top: 20px;
     border: 0;
-    border-radius: 10px;
-    font-size:1.25rem;
+    border-radius: 5px;
+    font-size:1.2rem;
 
 }
 #submit {
@@ -117,7 +141,6 @@ input {
 #courses {
     width:100%;
     text-align: center;
-    padding-top: 50px;
     display: flex;
     justify-content: space-between;
 
@@ -132,14 +155,15 @@ input {
 }
 
 #video {
+    display: flex;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     max-width: 560px;
     
 
 }
 
-@media (max-width: 1000px){
+@media (max-width: 960px){
     #courses {
         margin: auto;
         width: 50%;
@@ -160,7 +184,7 @@ ul {
 
 .row {
     padding-bottom: 0;
-    margin: 50px;
+    margin:0 50 px;
     display: flex;
     flex-direction: coloumn;
 }
@@ -184,8 +208,38 @@ svg {
     margin-bottom: 8px;
 }
 
-#main {
-    margin: 0 auto;
-    width: 100%;
-    min-width: 200px;
+@media (max-width: 960px){
+    .row {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    svg {
+        display: flex;
+        margin: auto;
+        width: 100%;
+    }
+
+
 }
+
+
+
+
+#main {
+    margin: 0px auto;
+    width: 100%;
+    min-width: 200px;    
+}
+
+.col_two>.container {
+    padding: 50px 0 30px 0;
+}
+.col_three>.container {
+    padding: 50px 0 50px 0;
+}
+.col_four>.container {
+    padding: 50px 0 50px 0;
+}
+
+

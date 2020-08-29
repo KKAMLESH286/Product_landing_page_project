@@ -163,7 +163,7 @@ input {
 
 }
 
-@media (max-width: 960px){
+@media (max-width: 940px){
     #courses {
         margin: auto;
         width: 50%;
@@ -208,7 +208,7 @@ svg {
     margin-bottom: 8px;
 }
 
-@media (max-width: 960px){
+@media (max-width: 940px){
     .row {
         display: flex;
         flex-direction: column;
